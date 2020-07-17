@@ -86,7 +86,7 @@
             <artifactId>agent-java-testng</artifactId>
             <version>5.0.4</version>
         </dependency>
-        <!-- TODO Leave only one dependency, depends on what logger you use: the
+        <!-- TODO Leave only one dependency, depends on what logger you use: -->
         <dependency>
             <groupId>com.epam.reportportal</groupId>
             <artifactId>logger-java-logback</artifactId>
