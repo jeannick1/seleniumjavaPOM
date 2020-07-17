@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ilab Test Suite" >
+    <listeners>
+        <listener class-name="Base.TestListener"></listener>
+        <listener class-name="com.epam.reportportal.testng.ReportPortalTestNGListener" />
+    </listeners>
+    <test name="Chrome Test cases">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="test.MainTest"></class>
+        </classes>
+    </test>
+
+<!--    <test name="Firefox Test cases">-->
+<!--        <parameter name="browser" value="firefox"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="test.MainTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="IE Test cases">-->
+<!--        <parameter name="browser" value="IE"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="test.MainTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>
